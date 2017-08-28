@@ -1,0 +1,8 @@
+Group: 14
+Name:  MarsWars
+Members:
+214520141		Jenade Moodley (GL)
+214508059 		Amaran Pather 
+213502312		Desivan Govender 
+214504593		Shivadna Raghunath
+213552755		Suhail Hajaree
