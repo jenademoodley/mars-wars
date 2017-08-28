@@ -1,0 +1,1112 @@
+# depslib dependency file v1.0
+1462871805 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\main.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<vector>
+	<random>
+	<cstdlib>
+	<iterator>
+	<sstream>
+	<algorithm>
+	<ctime>
+	"World.h"
+	"CraterBot.h"
+	"EnemyBot.h"
+	"Mountain.h"
+	"HUD.h"
+	"HealthItem.h"
+	"WaveBuffer.h"
+	"PlayFile.h"
+	"ReadSoundFileNames.h"
+	"Sunlight.h"
+	"Fog.h"
+	"bullet.h"
+	"Player.h"
+	"HealthItem.h"
+	"Ammo.h"
+	"SideMission.h"
+	"boss.h"
+
+1460048322 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1460048322 c:\program files (x86)\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winerror.h
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006770 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnterr.h
+
+1341006772 c:\program files (x86)\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1460048322 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
+
+1460048322 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006774 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1462786162 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\world.h
+	"Texture.h"
+
+1462107803 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\texture.h
+	<stdlib.h>
+	<GL/gl.h>
+	<stdio.h>
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341006780 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1462802845 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\craterbot.h
+	"RenderableNPC.h"
+	"EnemyBullet.h"
+
+1462863593 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\renderablenpc.h
+	"Location.h"
+	"bullet.h"
+
+1461055087 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\location.h
+
+1462450630 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\bullet.h
+	<iostream>
+	<vector>
+	"RenderableObject.h"
+	"objLoader.h"
+
+1462863593 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\renderableobject.h
+	"Location.h"
+
+1462259996 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\objloader.h
+	<string>
+
+1462829563 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\enemybullet.h
+	<iostream>
+	<vector>
+	"RenderableObject.h"
+
+1462824395 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\enemybot.h
+	"RenderableNPC.h"
+	"EnemyBullet.h"
+	"CraterBot.h"
+	"Mountain.h"
+
+1462491360 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\mountain.h
+	"RenderableObject.h"
+	"bullet.h"
+	"EnemyBullet.h"
+
+1461149678 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\hud.h
+
+1461412386 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\healthitem.h
+	"RenderableObject.h"
+
+1460965652 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\wavebuffer.h
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	<fstream>
+	<conio.h>
+
+1341006770 c:\program files (x86)\codeblocks\mingw\include\conio.h
+	<_mingw.h>
+
+1460964208 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\playfile.h
+	<string>
+
+1460967117 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\readsoundfilenames.h
+	"ReadSoundFileNames.h"
+	<Windows.h>
+	<vector>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1461148708 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\sunlight.h
+
+1461149112 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\fog.h
+
+1462833241 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\player.h
+	"objLoader.h"
+	"RenderableObject.h"
+	"Mountain.h"
+	"EnemyBot.h"
+	"CraterBot.h"
+	"boss.h"
+	<vector>
+
+1462835397 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\boss.h
+	<ctime>
+	<cstdlib>
+	"objLoader.h"
+	"RenderableNPC.h"
+	"bullet.h"
+	"Mountain.h"
+	"EnemyBullet.h"
+
+1462863593 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\ammo.h
+	"RenderableObject.h"
+
+1461414681 c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\include\sidemission.h
+	"RenderableObject.h"
+
+1461528437 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\ammo.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"Ammo.h"
+
+1462837237 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\boss.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<ctime>
+	<cstdlib>
+	"boss.h"
+
+1462656668 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\bullet.cpp
+	"bullet.h"
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<windows.h>
+	<mmsystem.h>
+
+1462831606 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\craterbot.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"CraterBot.h"
+
+1462864923 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\enemybot.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<ctime>
+	<cstdlib>
+	"EnemyBot.h"
+
+1462832382 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\enemybullet.cpp
+	"EnemyBullet.h"
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<windows.h>
+	<mmsystem.h>
+
+1461149112 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\fog.cpp
+	"Fog.h"
+	<GL/glut.h>
+
+1461580248 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\healthitem.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"HealthItem.h"
+
+1461613524 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\hud.cpp
+	"HUD.h"
+	<GL/glut.h>
+
+1461055087 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\location.cpp
+	"Location.h"
+
+1462491360 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\mountain.cpp
+	"Mountain.h"
+	<GL/glut.h>
+	<stdlib.h>
+	<math.h>
+
+1462259996 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\objloader.cpp
+	"objLoader.h"
+	<windows.h>
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	<string>
+	<vector>
+	<cmath>
+
+1462833572 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\player.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"Player.h"
+
+1460965315 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\playfile.cpp
+	"PlayFile.h"
+	<windows.h>
+	<mmsystem.h>
+	<string>
+
+1460970510 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\readsoundfilenames.cpp
+	"ReadSoundFileNames.h"
+	<Windows.h>
+	<vector>
+	<string>
+	<stdio.h>
+	<iostream>
+	<algorithm>
+
+1461506128 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\renderablenpc.cpp
+	"RenderableNPC.h"
+
+1461055087 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\renderableobject.cpp
+	"RenderableObject.h"
+
+1461528437 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\sidemission.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"SideMission.h"
+
+1461148872 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\sunlight.cpp
+	"Sunlight.h"
+	<GL/glut.h>
+
+1462447015 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\texture.cpp
+	"Texture.h"
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<stdio.h>
+
+1460967163 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\wavebuffer.cpp
+	"WaveBuffer.h"
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	<fstream>
+	<conio.h>
+
+1462786162 source:c:\users\jenade moodley\desktop\marswars v4 - completed game 10-05-2016\src\world.cpp
+	"World.h"
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<GL/gl.h>
+	"Texture.h"
+
+1462871805 source:c:\users\desivan\desktop\to burn\marswars\main.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<vector>
+	<random>
+	<cstdlib>
+	<iterator>
+	<sstream>
+	<algorithm>
+	<ctime>
+	"World.h"
+	"CraterBot.h"
+	"EnemyBot.h"
+	"Mountain.h"
+	"HUD.h"
+	"HealthItem.h"
+	"WaveBuffer.h"
+	"PlayFile.h"
+	"ReadSoundFileNames.h"
+	"Sunlight.h"
+	"Fog.h"
+	"bullet.h"
+	"Player.h"
+	"HealthItem.h"
+	"Ammo.h"
+	"SideMission.h"
+	"boss.h"
+
+1462786162 c:\users\desivan\desktop\to burn\marswars\include\world.h
+	"Texture.h"
+
+1462107803 c:\users\desivan\desktop\to burn\marswars\include\texture.h
+	<stdlib.h>
+	<GL/gl.h>
+	<stdio.h>
+
+1462802845 c:\users\desivan\desktop\to burn\marswars\include\craterbot.h
+	"RenderableNPC.h"
+	"EnemyBullet.h"
+
+1462863593 c:\users\desivan\desktop\to burn\marswars\include\renderablenpc.h
+	"Location.h"
+	"bullet.h"
+
+1461055087 c:\users\desivan\desktop\to burn\marswars\include\location.h
+
+1462450630 c:\users\desivan\desktop\to burn\marswars\include\bullet.h
+	<iostream>
+	<vector>
+	"RenderableObject.h"
+	"objLoader.h"
+
+1462863593 c:\users\desivan\desktop\to burn\marswars\include\renderableobject.h
+	"Location.h"
+
+1462259996 c:\users\desivan\desktop\to burn\marswars\include\objloader.h
+	<string>
+
+1462829563 c:\users\desivan\desktop\to burn\marswars\include\enemybullet.h
+	<iostream>
+	<vector>
+	"RenderableObject.h"
+
+1462824395 c:\users\desivan\desktop\to burn\marswars\include\enemybot.h
+	"RenderableNPC.h"
+	"EnemyBullet.h"
+	"CraterBot.h"
+	"Mountain.h"
+
+1462491360 c:\users\desivan\desktop\to burn\marswars\include\mountain.h
+	"RenderableObject.h"
+	"bullet.h"
+	"EnemyBullet.h"
+
+1461149678 c:\users\desivan\desktop\to burn\marswars\include\hud.h
+
+1461412386 c:\users\desivan\desktop\to burn\marswars\include\healthitem.h
+	"RenderableObject.h"
+
+1460965652 c:\users\desivan\desktop\to burn\marswars\include\wavebuffer.h
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	<fstream>
+	<conio.h>
+
+1460964208 c:\users\desivan\desktop\to burn\marswars\include\playfile.h
+	<string>
+
+1460967117 c:\users\desivan\desktop\to burn\marswars\include\readsoundfilenames.h
+	"ReadSoundFileNames.h"
+	<Windows.h>
+	<vector>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1461148708 c:\users\desivan\desktop\to burn\marswars\include\sunlight.h
+
+1461149112 c:\users\desivan\desktop\to burn\marswars\include\fog.h
+
+1462833241 c:\users\desivan\desktop\to burn\marswars\include\player.h
+	"objLoader.h"
+	"RenderableObject.h"
+	"Mountain.h"
+	"EnemyBot.h"
+	"CraterBot.h"
+	"boss.h"
+	<vector>
+
+1462835397 c:\users\desivan\desktop\to burn\marswars\include\boss.h
+	<ctime>
+	<cstdlib>
+	"objLoader.h"
+	"RenderableNPC.h"
+	"bullet.h"
+	"Mountain.h"
+	"EnemyBullet.h"
+
+1462863593 c:\users\desivan\desktop\to burn\marswars\include\ammo.h
+	"RenderableObject.h"
+
+1461414681 c:\users\desivan\desktop\to burn\marswars\include\sidemission.h
+	"RenderableObject.h"
+
+1461528437 source:c:\users\desivan\desktop\to burn\marswars\src\ammo.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"Ammo.h"
+
+1462837237 source:c:\users\desivan\desktop\to burn\marswars\src\boss.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<ctime>
+	<cstdlib>
+	"boss.h"
+
+1462656668 source:c:\users\desivan\desktop\to burn\marswars\src\bullet.cpp
+	"bullet.h"
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<windows.h>
+	<mmsystem.h>
+
+1462831606 source:c:\users\desivan\desktop\to burn\marswars\src\craterbot.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"CraterBot.h"
+
+1462864923 source:c:\users\desivan\desktop\to burn\marswars\src\enemybot.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<ctime>
+	<cstdlib>
+	"EnemyBot.h"
+
+1462832382 source:c:\users\desivan\desktop\to burn\marswars\src\enemybullet.cpp
+	"EnemyBullet.h"
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<windows.h>
+	<mmsystem.h>
+
+1461149112 source:c:\users\desivan\desktop\to burn\marswars\src\fog.cpp
+	"Fog.h"
+	<GL/glut.h>
+
+1461580248 source:c:\users\desivan\desktop\to burn\marswars\src\healthitem.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"HealthItem.h"
+
+1461613524 source:c:\users\desivan\desktop\to burn\marswars\src\hud.cpp
+	"HUD.h"
+	<GL/glut.h>
+
+1461055087 source:c:\users\desivan\desktop\to burn\marswars\src\location.cpp
+	"Location.h"
+
+1462491360 source:c:\users\desivan\desktop\to burn\marswars\src\mountain.cpp
+	"Mountain.h"
+	<GL/glut.h>
+	<stdlib.h>
+	<math.h>
+
+1462259996 source:c:\users\desivan\desktop\to burn\marswars\src\objloader.cpp
+	"objLoader.h"
+	<windows.h>
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	<string>
+	<vector>
+	<cmath>
+
+1462833572 source:c:\users\desivan\desktop\to burn\marswars\src\player.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"Player.h"
+
+1460965315 source:c:\users\desivan\desktop\to burn\marswars\src\playfile.cpp
+	"PlayFile.h"
+	<windows.h>
+	<mmsystem.h>
+	<string>
+
+1460970510 source:c:\users\desivan\desktop\to burn\marswars\src\readsoundfilenames.cpp
+	"ReadSoundFileNames.h"
+	<Windows.h>
+	<vector>
+	<string>
+	<stdio.h>
+	<iostream>
+	<algorithm>
+
+1461506128 source:c:\users\desivan\desktop\to burn\marswars\src\renderablenpc.cpp
+	"RenderableNPC.h"
+
+1461055087 source:c:\users\desivan\desktop\to burn\marswars\src\renderableobject.cpp
+	"RenderableObject.h"
+
+1461528437 source:c:\users\desivan\desktop\to burn\marswars\src\sidemission.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"SideMission.h"
+
+1461148872 source:c:\users\desivan\desktop\to burn\marswars\src\sunlight.cpp
+	"Sunlight.h"
+	<GL/glut.h>
+
+1462447015 source:c:\users\desivan\desktop\to burn\marswars\src\texture.cpp
+	"Texture.h"
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<stdio.h>
+
+1460967163 source:c:\users\desivan\desktop\to burn\marswars\src\wavebuffer.cpp
+	"WaveBuffer.h"
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	<fstream>
+	<conio.h>
+
+1462786162 source:c:\users\desivan\desktop\to burn\marswars\src\world.cpp
+	"World.h"
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<GL/gl.h>
+	"Texture.h"
+
+1462871805 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\main.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<vector>
+	<random>
+	<cstdlib>
+	<iterator>
+	<sstream>
+	<algorithm>
+	<ctime>
+	"World.h"
+	"CraterBot.h"
+	"EnemyBot.h"
+	"Mountain.h"
+	"HUD.h"
+	"HealthItem.h"
+	"WaveBuffer.h"
+	"PlayFile.h"
+	"ReadSoundFileNames.h"
+	"Sunlight.h"
+	"Fog.h"
+	"bullet.h"
+	"Player.h"
+	"HealthItem.h"
+	"Ammo.h"
+	"SideMission.h"
+	"boss.h"
+
+1462786162 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\world.h
+	"Texture.h"
+
+1462107803 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\texture.h
+	<stdlib.h>
+	<GL/gl.h>
+	<stdio.h>
+
+1462802845 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\craterbot.h
+	"RenderableNPC.h"
+	"EnemyBullet.h"
+
+1462863593 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\renderablenpc.h
+	"Location.h"
+	"bullet.h"
+
+1461055087 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\location.h
+
+1462450630 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\bullet.h
+	<iostream>
+	<vector>
+	"RenderableObject.h"
+	"objLoader.h"
+
+1462863593 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\renderableobject.h
+	"Location.h"
+
+1462259996 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\objloader.h
+	<string>
+
+1462829563 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\enemybullet.h
+	<iostream>
+	<vector>
+	"RenderableObject.h"
+
+1462824395 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\enemybot.h
+	"RenderableNPC.h"
+	"EnemyBullet.h"
+	"CraterBot.h"
+	"Mountain.h"
+
+1462491360 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\mountain.h
+	"RenderableObject.h"
+	"bullet.h"
+	"EnemyBullet.h"
+
+1461149678 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\hud.h
+
+1461412386 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\healthitem.h
+	"RenderableObject.h"
+
+1460965652 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\wavebuffer.h
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	<fstream>
+	<conio.h>
+
+1460964208 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\playfile.h
+	<string>
+
+1460967117 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\readsoundfilenames.h
+	"ReadSoundFileNames.h"
+	<Windows.h>
+	<vector>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1461148708 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\sunlight.h
+
+1461149112 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\fog.h
+
+1462833241 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\player.h
+	"objLoader.h"
+	"RenderableObject.h"
+	"Mountain.h"
+	"EnemyBot.h"
+	"CraterBot.h"
+	"boss.h"
+	<vector>
+
+1462835397 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\boss.h
+	<ctime>
+	<cstdlib>
+	"objLoader.h"
+	"RenderableNPC.h"
+	"bullet.h"
+	"Mountain.h"
+	"EnemyBullet.h"
+
+1462863593 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\ammo.h
+	"RenderableObject.h"
+
+1461414681 c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\include\sidemission.h
+	"RenderableObject.h"
+
+1461528437 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\ammo.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"Ammo.h"
+
+1462837237 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\boss.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<ctime>
+	<cstdlib>
+	"boss.h"
+
+1462656668 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\bullet.cpp
+	"bullet.h"
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<windows.h>
+	<mmsystem.h>
+
+1462831606 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\craterbot.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"CraterBot.h"
+
+1462864923 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\enemybot.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<ctime>
+	<cstdlib>
+	"EnemyBot.h"
+
+1462832382 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\enemybullet.cpp
+	"EnemyBullet.h"
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<windows.h>
+	<mmsystem.h>
+
+1461149112 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\fog.cpp
+	"Fog.h"
+	<GL/glut.h>
+
+1461580248 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\healthitem.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"HealthItem.h"
+
+1461613524 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\hud.cpp
+	"HUD.h"
+	<GL/glut.h>
+
+1461055087 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\location.cpp
+	"Location.h"
+
+1462491360 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\mountain.cpp
+	"Mountain.h"
+	<GL/glut.h>
+	<stdlib.h>
+	<math.h>
+
+1462259996 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\objloader.cpp
+	"objLoader.h"
+	<windows.h>
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	<string>
+	<vector>
+	<cmath>
+
+1462833572 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\player.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"Player.h"
+
+1460965315 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\playfile.cpp
+	"PlayFile.h"
+	<windows.h>
+	<mmsystem.h>
+	<string>
+
+1460970510 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\readsoundfilenames.cpp
+	"ReadSoundFileNames.h"
+	<Windows.h>
+	<vector>
+	<string>
+	<stdio.h>
+	<iostream>
+	<algorithm>
+
+1461506128 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\renderablenpc.cpp
+	"RenderableNPC.h"
+
+1461055087 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\renderableobject.cpp
+	"RenderableObject.h"
+
+1461528437 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\sidemission.cpp
+	<iostream>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"SideMission.h"
+
+1461148872 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\sunlight.cpp
+	"Sunlight.h"
+	<GL/glut.h>
+
+1462447015 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\texture.cpp
+	"Texture.h"
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<stdio.h>
+
+1460967163 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\wavebuffer.cpp
+	"WaveBuffer.h"
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	<fstream>
+	<conio.h>
+
+1462786162 source:c:\users\jenade moodley\documents\campus files\comp\3rd year\comp315 - advanced programming\mars wars\marswars\src\world.cpp
+	"World.h"
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<GL/gl.h>
+	"Texture.h"
+

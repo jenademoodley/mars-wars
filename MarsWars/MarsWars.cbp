@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MarsWars" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MarsWarsWC1" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MarsWarsWC1" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="include/Ammo.h" />
+		<Unit filename="include/CraterBot.h" />
+		<Unit filename="include/EnemyBot.h" />
+		<Unit filename="include/EnemyBullet.h" />
+		<Unit filename="include/Fog.h" />
+		<Unit filename="include/HUD.h" />
+		<Unit filename="include/HealthItem.h" />
+		<Unit filename="include/Location.h" />
+		<Unit filename="include/Mountain.h" />
+		<Unit filename="include/PlayFile.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/ReadSoundFileNames.h" />
+		<Unit filename="include/RenderableNPC.h" />
+		<Unit filename="include/RenderableObject.h" />
+		<Unit filename="include/SideMission.h" />
+		<Unit filename="include/Sunlight.h" />
+		<Unit filename="include/Texture.h" />
+		<Unit filename="include/WaveBuffer.h" />
+		<Unit filename="include/World.h" />
+		<Unit filename="include/boss.h" />
+		<Unit filename="include/bullet.h" />
+		<Unit filename="include/objLoader.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Ammo.cpp" />
+		<Unit filename="src/CraterBot.cpp" />
+		<Unit filename="src/EnemyBot.cpp" />
+		<Unit filename="src/EnemyBullet.cpp" />
+		<Unit filename="src/Fog.cpp" />
+		<Unit filename="src/HUD.cpp" />
+		<Unit filename="src/HealthItem.cpp" />
+		<Unit filename="src/Location.cpp" />
+		<Unit filename="src/Mountain.cpp" />
+		<Unit filename="src/PlayFile.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/ReadSoundFileNames.cpp" />
+		<Unit filename="src/RenderableNPC.cpp" />
+		<Unit filename="src/RenderableObject.cpp" />
+		<Unit filename="src/SideMission.cpp" />
+		<Unit filename="src/Sunlight.cpp" />
+		<Unit filename="src/Texture.cpp" />
+		<Unit filename="src/WaveBuffer.cpp" />
+		<Unit filename="src/World.cpp" />
+		<Unit filename="src/boss.cpp" />
+		<Unit filename="src/bullet.cpp" />
+		<Unit filename="src/objLoader.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

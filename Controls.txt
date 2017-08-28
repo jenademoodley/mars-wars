@@ -1,0 +1,11 @@
+Start game	-	Enter
+Walk forward	-	w, keyboard up arrow, joystick number 1
+Walk backward 	-    	s, keyboard down arrow, joystick number 3
+Turn left 	-    	mouse move left, joystick left arrow
+Turn right     	-    	mouse move right, joystick right arrow
+Pan left 	-	a, keyboard left arrow, joystick number 4 
+Pan right	-	d, keyboard right arrow, joystick number 2
+Shoot primary  	- 	spacebar, mouse left, joystick right shoulder 1, joystick right shoulder 2 
+Quit game 	-	escape, joystick start
+Reload 	      	-	mouse middle, joystick select 
+Aiming      	-	joystick up arrow, joystick down arrow
